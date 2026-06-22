@@ -9,6 +9,7 @@ def add_task(description):
     task = {"description": description, "done": False}
     tasks.append(task)
     print(f"Added task: {description}")
+
 def list_tasks():
     """Display all tasks."""
     if not tasks:
@@ -17,6 +18,7 @@ def list_tasks():
     for i, task in enumerate(tasks, 1):
         status = "[x]" if task["done"] else "[ ]"
         print(f"{i}. {status} {task['description']}")
+
 
 def main():
     print("=== Task Manager ===")
