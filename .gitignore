@@ -1,0 +1,12 @@
+# Secrets and environment
+.env
+
+# Python
+__pycache__/
+*.log
+
+# Runtime data - never commit live task data
+tasks.json
+
+# OS junk
+.DS_Store
